@@ -1,4 +1,3 @@
-//primitives types
 var age;
 age = 25;
 var nom;
