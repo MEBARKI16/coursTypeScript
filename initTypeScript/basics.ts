@@ -10,17 +10,17 @@ var grand: boolean = true;
 console.log(`je m'appel ${nom} et jai ${age}ans et je suis ${grand ? "grand" : "petit"}`);
 
 // advanced types
-
+type person = {
+    name: string,
+    prenom: string
+}
 var tab: string[];
 
 tab = ["a", "b", "c"];
 console.log(tab)
 
 
-type person = {
-    name: string,
-    prenom: string
-}
+
 
 var x: person;
 
