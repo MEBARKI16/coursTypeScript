@@ -30,3 +30,11 @@ console.log("mon nom est :" + x.name + " et mon prenom est :" + x.prenom)
 function print(x: any): any {
     console.log(x)
 }
+
+function print2<T>(a: T[], b: T) {
+    const x = [...a, b];
+
+    return x
+}
+
+console.log(print2([3], 3))
