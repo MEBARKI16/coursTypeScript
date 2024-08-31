@@ -38,3 +38,4 @@ function print2<T>(a: T[], b: T) {
 }
 
 console.log(print2([3], 3))
+
