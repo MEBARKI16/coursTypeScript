@@ -1,7 +1,11 @@
 
 import './App.css';
 import Todos from './componants/Todos';
-const array = ["Learn React","Learn TypeScript"]
+import Todo from './models/todo';
+const array = [
+  new Todo("learn react"),
+  new Todo("learn typescript")
+]
 function App() {
   return (
     <div>
