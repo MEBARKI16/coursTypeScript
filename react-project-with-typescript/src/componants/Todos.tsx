@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Todos = (props: any) => {
-    let i = 0;
+const Todos: React.FC<{ items: string[] }> = (props) => {
+
+
     return (
         <div>
             <ul>
-                {props.array? props.array.map((x: any, index: any) => (<li>{x[i]}</li>)) : ""}
+                {props.items.map((item) => <li key={item}>{item}</li>)}
             </ul>
         </div>
     )

@@ -1,11 +1,11 @@
 
 import './App.css';
 import Todos from './componants/Todos';
-const array = ["1","2","3"]
+const array = ["Learn React","Learn TypeScript"]
 function App() {
   return (
     <div>
-      <Todos array={array} />
+      <Todos items={array} />
     </div>
   );
 }
