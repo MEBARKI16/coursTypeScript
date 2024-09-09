@@ -1,5 +1,6 @@
 
 import './App.css';
+import NewTodo from './componants/NewTodo';
 import Todos from './componants/Todos';
 import Todo from './models/todo';
 const array = [
@@ -9,6 +10,7 @@ const array = [
 function App() {
   return (
     <div>
+      <NewTodo />
       <Todos items={array} />
     </div>
   );
